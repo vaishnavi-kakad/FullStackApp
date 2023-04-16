@@ -1,1 +1,5 @@
-<p>product-list works!</p>
+<div class="row">
+    <div *ngFor="let Propert of Properties" class="shadow-lg col-sm-4">
+        <app-property-card [Property]="Propert"></app-property-card>
+    </div>
+</div>
